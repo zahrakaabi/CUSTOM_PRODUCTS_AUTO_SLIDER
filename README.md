@@ -1,7 +1,6 @@
 ### CUSTOM PRODUCTS AUTO SLIDER
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-[SCREENSHOT](https://ibb.co/N7yQwDT)
+<img src="https://ibb.co/N7yQwDT" width="100%">
 
 ## Introduction :
 This is a code repositery for the coressponding dribble design [design_link](shorturl.at/qLOTZ)
