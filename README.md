@@ -1,6 +1,8 @@
 ### CUSTOM PRODUCTS AUTO SLIDER
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<img src="https://freeimage.host/i/yo6Ga9" />
+
 ![My Remote Image](https://freeimage.host/i/yo6Ga9)
 
 ## Introduction :
