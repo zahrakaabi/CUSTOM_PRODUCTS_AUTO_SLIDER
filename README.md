@@ -1,7 +1,7 @@
 ### CUSTOM PRODUCTS AUTO SLIDER
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Uploading localhost_3000_(Nest Hub Max).png…]()
+![Alt text](/relative/path/to/products.png?raw=true "Optional Title")
 
 ## Introduction :
 This is a code repositery for the coressponding dribble design [design_link](shorturl.at/qLOTZ)
