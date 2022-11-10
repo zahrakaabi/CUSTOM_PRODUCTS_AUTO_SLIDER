@@ -1,7 +1,7 @@
 ### CUSTOM PRODUCTS AUTO SLIDER
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img src="https://user-images.githubusercontent.com/60320144/201084607-0702ee62-6daa-48df-ae8e-320df0ac6ffc.gif" widh="300" />
+<img src="https://user-images.githubusercontent.com/60320144/201084607-0702ee62-6daa-48df-ae8e-320df0ac6ffc.gif" width="300" />
 
 
 ## Introduction :
