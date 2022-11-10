@@ -25,13 +25,13 @@ function ProductsDetails() {
         SHOWED_NAME.classList.remove('show-name');
         SHOWED_PRICE.classList.remove('show-price');
 
-
         const IMAGE = document.querySelector(`.image-${counter}`);
         const PRICE = document.querySelector(`.price-${counter}`);
         const NAME = document.querySelector(`.name-${counter}`);
         IMAGE.classList.add('show-product');
         PRICE.classList.add('show-price');
         NAME.classList.add('show-name');
+
         counter++;
 
         if (counter > PRODUCTS_API.length) {
@@ -44,17 +44,17 @@ function ProductsDetails() {
         <>
             <div className='products-container flex'>
                 <div className="products-container__product-image">
-                    {PRODUCTS_API.map(( {image, id, name} ) => <img className={`image-${id} ${id === 1 && 'show-product'}`} src={image} alt={name} />)}
+                    {PRODUCTS_API.map(( {image, id, name} ) => <img key={id} className={`image-${id} ${id === 1 && 'show-product'}`} src={image} alt={name} />)}
                 </div>
                 <div className="products-container__product-content flex justify-center items-center flex-column">
                     <span>CLOSE</span>
                     <p>PRODUCT</p>
-                    <div class="pos-r">
-                        {PRODUCTS_API.map(( {name, id} ) => <h1 className={`name-${id} ${id === 1 && 'show-name'}`}>{name}</h1>)}
+                    <div className="pos-r">
+                        {PRODUCTS_API.map(( {name, id} ) => <h1 key={id} className={`name-${id} ${id === 1 && 'show-name'}`}>{name}</h1>)}
                     </div>
                     <p>PRODUCT PRICE DOLLARS</p>
                     <div className="pos-r">
-                        {PRODUCTS_API.map(( {price, id} ) => <h2 className={`price-${id} ${id === 1 && 'show-price'}`}>$ {price}.00</h2>)}
+                        {PRODUCTS_API.map(( {price, id} ) => <h2 key={id} className={`price-${id} ${id === 1 && 'show-price'}`}>$ {price}.00</h2>)}
                     </div>
                     <p>Make a purchase and get a gift</p>
                     <div className='CTA_buttons flex'>

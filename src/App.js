@@ -14,7 +14,7 @@ import './shared/Styles/global.scss';
 /* ------------------------------------------------------- */
 function App() {
   return (
-      <ProductsDetails />
+    <ProductsDetails />
   );
 }
 

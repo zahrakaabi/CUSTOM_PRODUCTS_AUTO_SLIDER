@@ -1,10 +1,6 @@
 .products-container {
     width: 70vw;
     height: 80vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
     &__product-image {
         width: 50%;
@@ -18,7 +14,6 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-
         }
     }
 
@@ -32,6 +27,7 @@
             opacity: 0;
             width: 100%;
             font-size: 1.5rem;
+            transition: 0.6s ease;
         }
 
         h2 {
@@ -39,6 +35,7 @@
             opacity: 0;
             width: 100%;
             margin-top: 0;
+            transition: 0.6s ease;
         }
 
         p {
@@ -81,4 +78,30 @@
 .show-price,
 .show-name {
     opacity: 1 !important;
+}
+
+.show-product {        
+    animation: product-fading 4s;
+}
+
+@keyframes product-fading {
+    0% {
+        opacity: 1;
+        width: 80%;
+        left: 40%;
+        top: 50%;
+        transform: translate(-50%, -40%)
+    }
+
+    50% {
+        width: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    100% {
+        width: 10%;
+        left: 70%;
+        transform: translate(-50%, -70%)
+    }
 }
